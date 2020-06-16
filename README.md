@@ -1,3 +1,16 @@
+forked from marcelray/lifecam-settings
+
+want change for Logitech Webcam C920 series 
+some cameraControl and videoProcAmp of C920 are different with Microsoft lifecam's
+
+want turn off autowhitebalance and autofocus
+
+
+
+
+Below is marcelay's readme
+-----------Below------------
+
 # Microsoft LifeCam Webcam Settings Tool
 
 This is a little utility for forcing Microsoft LifeCam webcam settings. It's a command-line tool that reads in settings via XML—admittedly not the most elegant solution, but it worked great for our needs. Hopefully it will help you, too.

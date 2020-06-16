@@ -9,7 +9,6 @@ want turn off autowhitebalance and autofocus
 
 
 Below is marcelay's readme
------------Below------------
 
 # Microsoft LifeCam Webcam Settings Tool
 

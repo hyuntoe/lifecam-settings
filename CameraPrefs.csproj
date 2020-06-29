@@ -51,10 +51,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D9DDBB8AE77034F7689B18341A2BCAC2A61F2CEE</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>99358B1E4B034A082949AB7F5D6580F897D4934F</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CameraPrefs_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>CameraPrefs_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="CameraPrefs_1_TemporaryKey.pfx" />
     <None Include="CameraPrefs_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>

@@ -18,3 +18,7 @@ P:\Users\marcelebrate\Documents\3_Projects\BWCO_BelleAndWissell\NirvanaConfessio
 \\psf\Home\Documents\3_Projects\BWCO_BelleAndWissell\NirvanaConfessional\CameraPrefs\obj\x86\Debug\CameraPrefs.application
 \\psf\Home\Documents\3_Projects\BWCO_BelleAndWissell\NirvanaConfessional\CameraPrefs\obj\x86\Debug\CameraPrefs.exe
 \\psf\Home\Documents\3_Projects\BWCO_BelleAndWissell\NirvanaConfessional\CameraPrefs\obj\x86\Debug\CameraPrefs.pdb
+D:\hyunt\source\webcamconfig\obj\x86\Debug\CameraPrefs.csprojAssemblyReference.cache
+D:\hyunt\source\webcamconfig\obj\x86\Debug\CameraPrefs.csproj.CoreCompileInputs.cache
+D:\hyunt\source\webcamconfig\obj\x86\Debug\CameraPrefs.exe
+D:\hyunt\source\webcamconfig\obj\x86\Debug\CameraPrefs.pdb

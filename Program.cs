@@ -28,8 +28,8 @@ namespace CameraPrefsApp
             applyCameraSettings(config.Cameras);
 
 			// I am not interested in this. only for MS Lifecam
-			// so must delete
-			// applyTrueColorSetting(config.TrueColorEnabled);
+			// delete1: so must delete
+			//applyTrueColorSetting(config.TrueColorEnabled);
 		}
 
 		private static Configuration loadAndParseConfig(String pPath)
@@ -46,6 +46,7 @@ namespace CameraPrefsApp
 			}
 		}
 
+		/* delete1: so must delete
 		private static void applyTrueColorSetting(Boolean pValue)
 		{
 			Console.WriteLine("\nApplying TrueColor setting to registry...");
@@ -60,6 +61,7 @@ namespace CameraPrefsApp
 				Console.WriteLine("\n  ERROR: LifeCam entry not found. Is the LifeCam software installed?");
 			}
 		}
+		*/
 
 		private static void applyCameraSettings(CameraPrefs[] pCameraPrefsList)
 		{

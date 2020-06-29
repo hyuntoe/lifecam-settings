@@ -14,7 +14,8 @@ namespace CameraPrefsApp
 		private static Configuration config;
 
 		static void Main(string[] args)
-		{
+		{	// This is Main
+			// read xml and write config var
 			Console.WriteLine("\nReading CameraPrefs.xml...");
 
 			String configPath = "CameraPrefs.xml";
@@ -22,8 +23,13 @@ namespace CameraPrefsApp
 				configPath = args[0];
 
 			config = loadAndParseConfig(configPath);
-			applyCameraSettings(config.Cameras);
-			applyTrueColorSetting(config.TrueColorEnabled);
+
+            // write VideoProcAmp and CameraControl with config var
+            applyCameraSettings(config.Cameras);
+
+			// I am not interested in this. only for MS Lifecam
+			// so must delete
+			// applyTrueColorSetting(config.TrueColorEnabled);
 		}
 
 		private static Configuration loadAndParseConfig(String pPath)

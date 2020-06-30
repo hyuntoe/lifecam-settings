@@ -143,8 +143,8 @@ namespace CameraPrefsApp
 		{
 			get
 			{
-				int value;
-				VideoProcAmpFlags flags;
+				int value; //whitebalance value
+				VideoProcAmpFlags flags; //autowhitebalance on-off
 				return videoProcAmp.Get(VideoProcAmpProperty.WhiteBalance, out value, out flags);
 			}
 			set

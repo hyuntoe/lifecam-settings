@@ -6,12 +6,8 @@ some cameraControl and videoProcAmp of C920 are different with Microsoft lifecam
 want turn off autowhitebalance and autofocus
 
 mission
-no exec arguement: set autowhitebalance off, whitebalance 5300, autofocus off, focus 0 for HD Webcam C920
-exec arguement:
-- h : step by step, question for user input, print system cameras, select camera, print property and control, select property, set value, print property
-
-
-
+set autowhitebalance off, whitebalance 5300, autofocus off, focus 0 for HD Webcam C920
+whether use or not use config.xml ? 200630
 
 Below is marcelay's readme
 

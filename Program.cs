@@ -12,6 +12,10 @@ namespace CameraPrefsApp
 	class Program
 	{
 		private static Configuration config;
+		// 여기에 설정들과 값들 선언해버리고
+		// args로 카메라 이름을 받고
+		// device에서 카메라 이름이 없으면 종료
+		// device에서 카메라 이름이 있으면 설정 실행
 
 		static void Main(string[] args)
 		{	// This is Main

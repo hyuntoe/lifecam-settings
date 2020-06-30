@@ -23,6 +23,8 @@ namespace CameraPrefsApp
 		//[XmlElement("trueColorEnabled")]
 		//public Boolean TrueColorEnabled = false;
 
+		// delete2: not use
+		/*
 		public static void Serialize(string file, Configuration c)
 		{
 			XmlSerializer xs = new XmlSerializer(c.GetType());
@@ -31,6 +33,7 @@ namespace CameraPrefsApp
 			writer.Flush();
 			writer.Close();
 		}
+		*/
 		public static Configuration Deserialize(string file)
 		{
 			XmlSerializer xs = new XmlSerializer(typeof(Configuration));

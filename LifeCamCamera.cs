@@ -93,6 +93,8 @@ namespace CameraPrefsApp
 			get { return Source.GetAutoFocus(); }
 			set { Source.SetAutoFocus(value); }
 		}
+		// 관심대상이 아니므로 삭제
+		/*
 		public void GetFocusRange(ref int minimum, ref int maximum, ref int step)
 		{
 			//int defaultValue;
@@ -104,19 +106,19 @@ namespace CameraPrefsApp
 			get { return Source.GetZoom(); }
 			set { Source.SetZoom(value); }
 		}
+
 		public void GetZoomRange(out int minimum, out int maximum, out int step)
 		{
 			int defaultValue;
 			Source.GetZoomRange(out minimum, out maximum, out step, out defaultValue);
 		}
 
-
-
 		public int Pan
 		{
 			get { return Source.GetPan(); }
 			set { Source.SetPan(value); }
 		}
+
 		public void GetPanRange(ref int min, ref int max, ref int step, ref int def)
 		{
 			Source.GetPanRange(ref min, ref max, ref step, ref def);
@@ -127,28 +129,16 @@ namespace CameraPrefsApp
 			get { return Source.GetTilt(); }
 			set { Source.SetTilt(value); }
 		}
+
 		public void GetTiltRange(ref int min, ref int max, ref int step, ref int def)
 		{
 			Source.GetTiltRange(ref min, ref max, ref step, ref def);
 		}
+		*/
 
 		/**
 		 * Video Settings
 		 */
-		public int Brightness
-		{
-			get
-			{
-				int value;
-				VideoProcAmpFlags flags;
-				return videoProcAmp.Get(VideoProcAmpProperty.Brightness, out value, out flags);
-			}
-			set
-			{
-				videoProcAmp.Set(VideoProcAmpProperty.Brightness, value, VideoProcAmpFlags.Manual);
-			}
-		}
-
 		public int WhiteBalance
 		{
 			get
@@ -160,6 +150,22 @@ namespace CameraPrefsApp
 			set
 			{
 				videoProcAmp.Set(VideoProcAmpProperty.WhiteBalance, value, VideoProcAmpFlags.Manual);
+			}
+		}
+
+		// 관심대상이 아니므로 삭제
+		/*
+		public int Brightness
+		{
+			get
+			{
+				int value;
+				VideoProcAmpFlags flags;
+				return videoProcAmp.Get(VideoProcAmpProperty.Brightness, out value, out flags);
+			}
+			set
+			{
+				videoProcAmp.Set(VideoProcAmpProperty.Brightness, value, VideoProcAmpFlags.Manual);
 			}
 		}
 
@@ -204,5 +210,6 @@ namespace CameraPrefsApp
 				videoProcAmp.Set(VideoProcAmpProperty.Contrast, value, VideoProcAmpFlags.Manual);
 			}
 		}
+		*/
 	}
 }

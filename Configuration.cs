@@ -20,8 +20,8 @@ namespace CameraPrefsApp
 		[XmlArrayItem("camera")]
 		public CameraPrefs[] Cameras;
 
-		[XmlElement("trueColorEnabled")]
-		public Boolean TrueColorEnabled = false;
+		//[XmlElement("trueColorEnabled")]
+		//public Boolean TrueColorEnabled = false;
 
 		public static void Serialize(string file, Configuration c)
 		{
@@ -49,20 +49,26 @@ namespace CameraPrefsApp
 		[XmlAttribute("name")]
 		public String Name;
 
+		// 관심대상이 아니므로 삭제
+		/*
 		[XmlAttribute("autoExposure")]
 		public Boolean AutoExposure;
+		*/
 
 		[XmlAttribute("autoFocus")]
 		public Boolean AutoFocus;
 
 		[XmlAttribute("autoWhiteBalance")]
 		public Boolean AutoWhiteBalance;
-		/*
-		*/
 
 		[XmlAttribute("focus")]
 		public int Focus;
 
+		[XmlAttribute("whiteBalance")]
+		public int WhiteBalance;
+
+		// 관심대상이 아니므로 삭제
+		/*
 		[XmlAttribute("pan")]
 		public int Pan;
 
@@ -83,9 +89,7 @@ namespace CameraPrefsApp
 
 		[XmlAttribute("saturation")]
 		public int Saturation;
-
-		[XmlAttribute("whiteBalance")]
-		public int WhiteBalance;
+		*/
 	}
 
 

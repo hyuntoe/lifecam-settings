@@ -66,6 +66,7 @@ namespace CameraPrefsApp
 				}
 				catch (Exception e)
 				{
+					Console.WriteLine(e);
 					continue;
 				}
 			}

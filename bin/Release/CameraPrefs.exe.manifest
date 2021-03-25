@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="CameraPrefs.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CameraPrefs" version="1.0.0.29691" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="CameraPrefs" version="1.0.0.30137" language="neutral" processorArchitecture="x86" />
     <commandLine file="CameraPrefs.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -77,13 +77,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CameraPrefs.exe" size="8624">
-      <assemblyIdentity name="CameraPrefs" version="1.0.0.29691" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="CameraPrefs" version="1.0.0.30137" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>h7njHe0I0LrqPMj4i+6THllXHYs=</dsig:DigestValue>
+        <dsig:DigestValue>sPZc46Fd4x1l/O5XTdSxmG8mB3A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

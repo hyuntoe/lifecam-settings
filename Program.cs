@@ -46,6 +46,7 @@ namespace CameraPrefsApp
 			{
 				TextWriter errorWriter = Console.Error;
 				errorWriter.WriteLine("\n  ERROR: Config not found at \"" + pPath + "\"");
+				Console.WriteLine("\n  ERROR: " + pException.Message);
 				return null;
 			}
 		}
@@ -63,6 +64,7 @@ namespace CameraPrefsApp
 			catch (Exception pException)
 			{
 				Console.WriteLine("\n  ERROR: LifeCam entry not found. Is the LifeCam software installed?");
+		        Console.WriteLine("\n  ERROR: " + pException.Message);
 			}
 		}
 		*/

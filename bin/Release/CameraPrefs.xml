@@ -6,7 +6,7 @@
 	<cameras>
 	
 		<camera
-			name="Microsoft LifeCam Cinema"
+			name="HD Webcam"
 			autoFocus="false"
 			autoWhiteBalance="false"
 			
